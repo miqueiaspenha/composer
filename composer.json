@@ -1,0 +1,21 @@
+{
+    "name" : "miqueiaspenha/course-composer",
+    "description": "Package Test",
+    "require" : {
+        "php": ">=7.0",
+        "silex/silex": "2.2@stable"
+    },
+    "type": "library",
+    "version": "1.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miqueias Penha",
+            "email": "miqueiaspenha@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"Miqueias\\course\\":"src/miqueias/course"}
+    }
+}
